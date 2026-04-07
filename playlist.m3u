@@ -1,4 +1,14 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="Sport",⚽ Match
-http://176.123.1.33:8080/34879/index.m3u8
+#EXTINF:-1 group-title="Трансляції" tvg-logo="https://imgpx.com/EVxuazlU29Ny.png",Event 1
+https://kasta-tv-ua.short.gy/event1
+#EXTINF:-1 group-title="Трансляції" tvg-logo="https://imgpx.com/FiKgxtlXJV08.png",Event 2
+https://kasta-tv-ua.short.gy/event2
+#EXTINF:-1 group-title="Трансляції" tvg-logo="https://imgpx.com/FiKgxtlXJV08.png",Event 3
+https://kasta-tv-ua.short.gy/event3
+#EXTINF:-1 group-title="Трансляції" tvg-logo="https://imgpx.com/FiKgxtlXJV08.png",Event 4
+https://kasta-tv-ua.short.gy/event4
+#EXTINF:-1 group-title="Трансляції" tvg-logo="https://imgpx.com/FiKgxtlXJV08.png",Event 5
+https://kasta-tv-ua.short.gy/event5
+#EXTINF:-1 group-title="Трансляції" tvg-logo="https://imgpx.com/FiKgxtlXJV08.png",Event 6
+https://kasta-tv-ua.short.gy/event6
