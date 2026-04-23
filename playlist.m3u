@@ -19,6 +19,8 @@ https://kasta-tv-ua.short.gy/event8
 #EXTINF:-1 group-title="Трансляції" tvg-logo="https://imgpx.com/FiKgxtlXJV08.png",Event 9
 https://kasta-tv-ua.short.gy/event9
 
+#EXTINF:-1 group-title="Спорт" tvg-id="2370" tvg-logo="https://kasta-sports-tv.github.io/iptv/logo/setua.png",Setanta Sports UA
+https://kasta-sports-tv.github.io/iptv/nl-setua/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-id="7238" tvg-logo="https://kasta-sports-tv.github.io/iptv/logo/set-1.png",Setanta Sports 1
 https://kasta-sports-tv.github.io/iptv/nl-set-1/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-id="7239" tvg-logo="https://kasta-sports-tv.github.io/iptv/logo/set-2.png",Setanta Sports 2
