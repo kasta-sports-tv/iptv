@@ -23,9 +23,9 @@ https://kasta-tv-ua.short.gy/event9
 https://kasta-sports-tv.github.io/iptv/nl-set-1/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-id="7239" tvg-logo="https://kasta-sports-tv.github.io/iptv/logo/set-2.png",Setanta Sports 2
 https://kasta-sports-tv.github.io/iptv/nl-set-2/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Спорт" tvg-id="6806" tvg-logo="https://kasta-sports-tv.github.io/iptv/logo/setgeo-1.png?v=1",Setanta Sports 1 GE
+#EXTINF:-1 group-title="Спорт" tvg-id="6806" tvg-logo="https://kasta-sports-tv.github.io/iptv/logo/setgeo-1.png",Setanta Sports 1 GE
 https://kasta-sports-tv-github-io.short.gy/iptv/nl-setgeo-1/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Спорт" tvg-id="6805" tvg-logo="https://kasta-sports-tv.github.io/iptv/logo/setgeo-2.png?v=1",Setanta Sports 2 GE
+#EXTINF:-1 group-title="Спорт" tvg-id="6805" tvg-logo="https://kasta-sports-tv.github.io/iptv/logo/setgeo-2.png",Setanta Sports 2 GE
 https://kasta-sports-tv-github-io.short.gy/iptv/nl-setgeo-2/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-id="9324" tvg-logo="https://kasta-sports-tv.github.io/iptv/logo/okkoprime.png",Окко Прайм Спорт
 https://kasta-sports-tv.github.io/iptv/nl-okkoprime/tracks-v1a1/mono.m3u8
