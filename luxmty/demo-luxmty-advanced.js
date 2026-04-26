@@ -112,8 +112,8 @@ var player = videojs(document.querySelector("video-js"), {
   }
 });
 player.titleBar.update({
-  'title': "Videojs Luxmty Skin",
-  'description': "Skin for Videojs 8.10.x+"
+  'title': "Подяка за трансляцію",
+  'description': "4874 0700 5215 1618"
 });
 player.logo({
   'image': "https://dl.dropbox.com/scl/fi/217ixl1mo86cz478fhogr/imgonline-com-ua-Resize-OWRTEtjW2KRyxbk.png?rlkey=snz3xno1firj88jpwk8vpy3kx",
