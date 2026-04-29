@@ -99,7 +99,7 @@ var player = videojs(document.querySelector("video-js"), {
   'liveui': true,
   'language': '',
   'playbackRates': [0.25, 0.5, 0.75, 1, 1.25, 1.5, 2],
-  'poster': "",
+  'poster': "https://www.betaura.com.ua/wp-content/uploads/2026/04/atletico_arsenal-1536x864.webp",
   'techOrder': ["html5", "youtube"],
   'html5': {
     'vhs': {
