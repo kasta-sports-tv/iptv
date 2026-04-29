@@ -85,29 +85,27 @@ var player = videojs(document.querySelector("video-js"), {
   'controlBar': {
     'children': ["playToggle", "skipBackward", "skipForward", "volumePanel", "currentTimeDisplay", "timeDivider", "durationDisplay", "progressControl", "liveDisplay", "seekToLive", "remainingTimeDisplay", "customControlSpacer", "playbackRateMenuButton", "chaptersButton", "descriptionsButton", "subsCapsButton", "audioTrackButton", "ShareButton", "hlsQualitySelector", "QualitySelector", "pictureInPictureToggle", "fullscreenToggle"],
     'skipButtons': {
-      'forward': 0xa,
-      'backward': 0xa
-    }
-  },
-  'enableSmoothSeeking': true,
-  'inactivityTimeout': 0xbb8,
-  'preload': "metadata",
-  'autoplay': '',
-  'controls': true,
-  'responsive': true,
-  'fluid': true,
-  'liveui': true,
-  'language': '',
-  'playbackRates': [0.25, 0.5, 0.75, 1, 1.25, 1.5, 2],
-  'poster': "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==",
-  'techOrder': ["html5", "youtube"],
-  'html5': {
-    'vhs': {
-      'enableLowInitialPlaylist': true,
-      'fastQualityChange': true,
-      'overrideNative': true,
-      'useDevicePixelRatio': false,
-      'limitRenditionByPlayerDimensions': false
+  'forward': 0xa,
+  'backward': 0xa
+},
+'enableSmoothSeeking': true,
+'inactivityTimeout': 0xbb8,
+'preload': "metadata",
+'autoplay': '',
+'controls': true,
+'responsive': true,
+'fluid': true,
+'liveui': true,
+'language': '',
+'playbackRates': [0.25, 0.5, 0.75, 1, 1.25, 1.5, 2],
+'techOrder': ["html5", "youtube"],
+'html5': {
+  'vhs': {
+    'enableLowInitialPlaylist': true,
+    'fastQualityChange': true,
+    'overrideNative': true,
+    'useDevicePixelRatio': false,
+    'limitRenditionByPlayerDimensions': false
     }
   }
 });
