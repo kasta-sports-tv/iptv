@@ -121,7 +121,7 @@ const logoBase = {
   fadeDelay: null,
   hideOnReady: false,
   position: "top-right",
-  height: 0,
+  height: "auto",
   opacity: 1,
   offsetH: 0,
   offsetV: 0,
