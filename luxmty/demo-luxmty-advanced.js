@@ -138,34 +138,34 @@ function applyLogo() {
 
   // 📱 MOBILE NORMAL
   if (isMobile && !isFs) {
-    cfg.width = 15;
-    cfg.offsetH = 5;
-    cfg.offsetV = 5;
-    cfg.padding = 3;
+    cfg.width = 2;
+    cfg.offsetH = 1;
+    cfg.offsetV = 1;
+    cfg.padding = 1;
   }
 
   // 💻 DESKTOP NORMAL
   if (!isMobile && !isFs) {
-    cfg.width = 60;
-    cfg.offsetH = 0;
-    cfg.offsetV = 0;
-    cfg.padding = 5;
+    cfg.width = 5;
+    cfg.offsetH = 1;
+    cfg.offsetV = 1;
+    cfg.padding = 1;
   }
 
   // 🔳 DESKTOP FULLSCREEN
   if (!isMobile && isFs) {
-    cfg.width = 110;
-    cfg.offsetH = 10;
-    cfg.offsetV = 10;
-    cfg.padding = 10;
+    cfg.width = 10;
+    cfg.offsetH = 1;
+    cfg.offsetV = 1;
+    cfg.padding = 1;
   }
 
   // 📱 MOBILE FULLSCREEN
   if (isMobile && isFs) {
-    cfg.width = 50;
-    cfg.offsetH = 8;
-    cfg.offsetV = 8;
-    cfg.padding = 6;
+    cfg.width = 2;
+    cfg.offsetH = 1;
+    cfg.offsetV = 1;
+    cfg.padding = 1;
   }
 
   // перезапуск лого (ВАЖЛИВО)
