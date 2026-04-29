@@ -121,7 +121,7 @@ const logoBase = {
   fadeDelay: null,
   hideOnReady: false,
   position: "top-right",
-  height: "auto",
+  height: 0,
   opacity: 1,
   offsetH: 0,
   offsetV: 0,
@@ -138,7 +138,7 @@ function applyLogo() {
 
   // 📱 MOBILE NORMAL
   if (isMobile && !isFs) {
-    cfg.width = 45;
+    cfg.width = 15;
     cfg.offsetH = 5;
     cfg.offsetV = 5;
     cfg.padding = 3;
@@ -146,7 +146,7 @@ function applyLogo() {
 
   // 💻 DESKTOP NORMAL
   if (!isMobile && !isFs) {
-    cfg.width = 100;
+    cfg.width = 60;
     cfg.offsetH = 0;
     cfg.offsetV = 0;
     cfg.padding = 5;
@@ -154,7 +154,7 @@ function applyLogo() {
 
   // 🔳 DESKTOP FULLSCREEN
   if (!isMobile && isFs) {
-    cfg.width = 160;
+    cfg.width = 110;
     cfg.offsetH = 10;
     cfg.offsetV = 10;
     cfg.padding = 10;
@@ -162,7 +162,7 @@ function applyLogo() {
 
   // 📱 MOBILE FULLSCREEN
   if (isMobile && isFs) {
-    cfg.width = 90;
+    cfg.width = 50;
     cfg.offsetH = 8;
     cfg.offsetV = 8;
     cfg.padding = 6;
