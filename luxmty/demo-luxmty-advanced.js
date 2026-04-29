@@ -99,7 +99,7 @@ var player = videojs(document.querySelector("video-js"), {
   'liveui': true,
   'language': '',
   'playbackRates': [0.25, 0.5, 0.75, 1, 1.25, 1.5, 2],
-  'poster': "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==",
+  'poster': "",
   'techOrder': ["html5", "youtube"],
   'html5': {
     'vhs': {
