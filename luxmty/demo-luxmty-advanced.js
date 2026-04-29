@@ -112,31 +112,83 @@ var player = videojs(document.querySelector("video-js"), {
   }
 });
 player.titleBar.update({
-  'title': "Videojs Luxmty Skin",
-  'description': "Skin for Videojs 8.10.x+"
+  'title': "Подяка за трансляцію",
+  'description': "4874 0700 5215 1618"
 });
+
 player.logo({
   'image': "https://dl.dropbox.com/scl/fi/217ixl1mo86cz478fhogr/imgonline-com-ua-Resize-OWRTEtjW2KRyxbk.png?rlkey=snz3xno1firj88jpwk8vpy3kx",
   'url': "https://ko-fi.com/s/9194d0cea1",
   'fadeDelay': null,
   'hideOnReady': false,
   'position': "top-right",
-  'width': 0x64,
-  'height': 0x0,
-  'padding': 0x5,
-  'opacity': 0x1,
-  'offsetH': 0x0,
-  'offsetV': 0x0
+  'width': 100,
+  'height': 0,
+  'padding': 5,
+  'opacity': 1,
+  'offsetH': 0,
+  'offsetV': 0
 });
-player.on("useractive", () => {
-  player.logo().show();
-});
+
+// -------------------------------
+// ДИНАМІЧНЕ КЕРУВАННЯ ЛОГОТИПОМ
+// (fullscreen + resize як watermark)
+// -------------------------------
+
+function updateLogo() {
+  const logoEl = document.querySelector('.vjs-logo-content img, .vjs-logo img');
+  const container = document.querySelector('.vjs-logo-content, .vjs-logo');
+  if (!logoEl || !container) return;
+
+  const isFullscreen = player.isFullscreen();
+  const isDesktop = window.innerWidth > 768;
+
+  if (isFullscreen) {
+    if (isDesktop) {
+      logoEl.style.width = "300px";
+      container.style.top = "5%";
+      container.style.right = "1%";
+    } else {
+      logoEl.style.width = "120px";
+      container.style.top = "0.5%";
+      container.style.right = "8%";
+    }
+  } else {
+    if (isDesktop) {
+      logoEl.style.width = "240px";
+      container.style.top = "0.5%";
+      container.style.right = "0.3%";
+    } else {
+      logoEl.style.width = "80px";
+      container.style.top = "1%";
+      container.style.right = "1%";
+    }
+  }
+}
+
 player.on("playing", () => {
   player.logo().show();
+  updateLogo();
 });
+
+player.on("useractive", () => {
+  player.logo().show();
+  updateLogo();
+});
+
 player.on("pause", () => {
   player.logo().show();
+  updateLogo();
 });
+
+player.on("fullscreenchange", updateLogo);
+window.addEventListener("resize", updateLogo);
+setTimeout(updateLogo, 500);
+
+// -------------------------------
+// control bar logo (НЕ ТРОГАЄМО)
+// -------------------------------
+
 player.logocontrolbar({
   'image': "https://raw.githubusercontent.com/EmilioSG11/videojs-cosmos-skin/main/svg/emsgdesignew.svg",
   'url': '',
@@ -144,9 +196,11 @@ player.logocontrolbar({
   'height': 0x23,
   'opacity': 0x1
 });
+
 player.qualityMenu({
   'useResolutionLabels': true
 });
+
 player.mobileUi({
   'fullscreen': {
     'enterOnRotate': true,
@@ -163,6 +217,7 @@ player.mobileUi({
     'disabled': false
   }
 });
+
 player.contextmenuUI({
   'keepInside': true,
   'content': [{
@@ -176,10 +231,13 @@ player.contextmenuUI({
     'label': "Â© Luxmtyplayer"
   }]
 });
+
 player.posterTime();
+
 window.addEventListener("load", function () {
   var _0x4fcae0 = document.getElementById("video-player_youtube_api");
   var _0x23474b = document.createElement("div");
+
   _0x23474b.id = "overlay";
   _0x23474b.style.position = "absolute";
   _0x23474b.style.width = "100%";
@@ -187,5 +245,6 @@ window.addEventListener("load", function () {
   _0x23474b.style.background = "transparent";
   _0x23474b.style.top = "0px";
   _0x23474b.style.left = "0px";
+
   _0x4fcae0.parentNode.insertBefore(_0x23474b, _0x4fcae0.nextSibling);
 });
