@@ -99,7 +99,7 @@ var player = videojs(document.querySelector("video-js"), {
   'liveui': true,
   'language': '',
   'playbackRates': [0.25, 0.5, 0.75, 1, 1.25, 1.5, 2],
-  'poster': "",
+  'poster': "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==",
   'techOrder': ["html5", "youtube"],
   'html5': {
     'vhs': {
@@ -115,19 +115,86 @@ player.titleBar.update({
   'title': "Videojs Luxmty Skin",
   'description': "Skin for Videojs 8.10.x+"
 });
+const logoBase = {
+  image: "https://dl.dropbox.com/scl/fi/217ixl1mo86cz478fhogr/imgonline-com-ua-Resize-OWRTEtjW2KRyxbk.png?rlkey=snz3xno1firj88jpwk8vpy3kx",
+  url: "https://ko-fi.com/s/9194d0cea1",
+  fadeDelay: null,
+  hideOnReady: false,
+  position: "top-right",
+  height: 0,
+  opacity: 1,
+  offsetH: 0,
+  offsetV: 0,
+  padding: 5
+};
 
-player.logocontrolbar({
-  'image': "https://raw.githubusercontent.com/EmilioSG11/videojs-cosmos-skin/main/svg/emsgdesignew.svg",
-  'url': '',
-  'width': 0x41,
-  'height': 0x23,
-  'opacity': 0x1
+function applyLogo() {
+  if (!player.logo) return;
+
+  let isMobile = window.innerWidth <= 768;
+  let isFs = player.isFullscreen && player.isFullscreen();
+
+  let cfg = { ...logoBase };
+
+  // 📱 MOBILE NORMAL
+  if (isMobile && !isFs) {
+    cfg.width = 45;
+    cfg.offsetH = 5;
+    cfg.offsetV = 5;
+    cfg.padding = 3;
+  }
+
+  // 💻 DESKTOP NORMAL
+  if (!isMobile && !isFs) {
+    cfg.width = 100;
+    cfg.offsetH = 0;
+    cfg.offsetV = 0;
+    cfg.padding = 5;
+  }
+
+  // 🔳 DESKTOP FULLSCREEN
+  if (!isMobile && isFs) {
+    cfg.width = 160;
+    cfg.offsetH = 10;
+    cfg.offsetV = 10;
+    cfg.padding = 10;
+  }
+
+  // 📱 MOBILE FULLSCREEN
+  if (isMobile && isFs) {
+    cfg.width = 90;
+    cfg.offsetH = 8;
+    cfg.offsetV = 8;
+    cfg.padding = 6;
+  }
+
+  // перезапуск лого (ВАЖЛИВО)
+  try {
+    const l = player.logo();
+    if (l && l.hide) l.hide();
+    if (l && l.show) l.show();
+  } catch (e) {}
+
+  player.logo(cfg);
+}
+
+/* ініціалізація */
+player.ready(() => {
+  player.logo(logoBase);
+  applyLogo();
 });
 
+/* події */
+player.on("playing", applyLogo);
+player.on("play", applyLogo);
+player.on("useractive", () => player.logo().show());
+player.on("pause", () => player.logo().show());
+
+player.on("fullscreenchange", applyLogo);
+window.addEventListener("resize", applyLogo);
 player.qualityMenu({
   'useResolutionLabels': true
 });
-
 player.mobileUi({
   'fullscreen': {
     'enterOnRotate': true,
@@ -144,7 +211,6 @@ player.mobileUi({
     'disabled': false
   }
 });
-
 player.contextmenuUI({
   'keepInside': true,
   'content': [{
@@ -158,13 +224,10 @@ player.contextmenuUI({
     'label': "Â© Luxmtyplayer"
   }]
 });
-
 player.posterTime();
-
 window.addEventListener("load", function () {
   var _0x4fcae0 = document.getElementById("video-player_youtube_api");
   var _0x23474b = document.createElement("div");
-
   _0x23474b.id = "overlay";
   _0x23474b.style.position = "absolute";
   _0x23474b.style.width = "100%";
@@ -172,6 +235,5 @@ window.addEventListener("load", function () {
   _0x23474b.style.background = "transparent";
   _0x23474b.style.top = "0px";
   _0x23474b.style.left = "0px";
-
   _0x4fcae0.parentNode.insertBefore(_0x23474b, _0x4fcae0.nextSibling);
 });
