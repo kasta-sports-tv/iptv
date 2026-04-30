@@ -31,13 +31,13 @@ https://kasta-sports-tv.github.io/iptv/nl-set-2/tracks-v1a1/mono.m3u8
 https://kasta-sports-tv-github-io.short.gy/iptv/nl-setgeo-1/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-id="6805" tvg-logo="https://kasta-sports-tv.github.io/iptv/logo/setgeo-2.png",Setanta Sports 2 GE
 https://kasta-sports-tv-github-io.short.gy/iptv/nl-setgeo-2/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Спорт" tvg-id="6795" tvg-logo="https://kasta-sports-tv.github.io/iptv/logo/silk-1.png",Silk Sport 1
+#EXTINF:-1 group-title="Спорт" tvg-id="6795" tvg-logo="http://1lot.tv/ch/9594.png",Silk Sport 1
 https://kasta-sports-tv-github-io.short.gy/iptv/nl-silk-1/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Спорт" tvg-id="6815" tvg-logo="https://kasta-sports-tv.github.io/iptv/logo/silk-2.png",Silk Sport 2
+#EXTINF:-1 group-title="Спорт" tvg-id="6815" tvg-logo="http://1lot.tv/ch/9595.png",Silk Sport 2
 https://kasta-sports-tv-github-io.short.gy/iptv/nl-silk-2/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Спорт" tvg-id="6816" tvg-logo="https://kasta-sports-tv.github.io/iptv/logo/silk-3.png",Silk Sport 3
+#EXTINF:-1 group-title="Спорт" tvg-id="6816" tvg-logo="http://1lot.tv/ch/9596.png",Silk Sport 3
 https://kasta-sports-tv-github-io.short.gy/iptv/nl-silk-3/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Спорт" tvg-id="7794" tvg-logo="https://kasta-sports-tv.github.io/iptv/logo/silkuni.png",Silk Universal
+#EXTINF:-1 group-title="Спорт" tvg-id="7794" tvg-logo="http://1lot.tv/ch/8330.png",Silk Universal
 https://kasta-sports-tv-github-io.short.gy/iptv/nl-silkuni/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-id="2684" tvg-logo="http://1lot.tv/ch/7049.png",Sport 1 IL
 https://kasta-sports-tv.github.io/iptv/nl-sport-1il/tracks-v1a1/mono.m3u8
