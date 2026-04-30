@@ -19,6 +19,12 @@ https://kasta-tv-ua.short.gy/event8
 #EXTINF:-1 group-title="Трансляції" tvg-logo="https://imgpx.com/FiKgxtlXJV08.png",Event 9
 https://kasta-tv-ua.short.gy/event9
 
+#EXTINF:-1 group-title="Спорт" tvg-id="2917" tvg-logo="http://epg.one/img2/2917.png",DAZN 3 PT
+https://kasta-sports-tv-github-io.short.gy/iptv/nl-dazn-3pt/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-id="2918" tvg-logo="http://epg.one/img2/2918.png",DAZN 4 PT
+https://kasta-sports-tv-github-io.short.gy/iptv/nl-dazn-4pt/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-id="2919" tvg-logo="http://epg.one/img2/2919.png",DAZN 5 PT
+https://kasta-sports-tv-github-io.short.gy/iptv/nl-dazn-5pt/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-id="2370" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/62175f03-252b-498f-949f-4fad869d4626.png",Setanta Sports UA
 https://kasta-sports-tv.github.io/iptv/nl-setua/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-id="6860" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/2dd33c5f-e82b-41aa-9e84-e3feda26ec1b.png",Setanta Sports+ UA
