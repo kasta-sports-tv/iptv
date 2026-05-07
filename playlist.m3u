@@ -19,6 +19,18 @@ https://kasta-tv-ua.short.gy/event8
 #EXTINF:-1 group-title="Трансляції" tvg-logo="https://imgpx.com/FiKgxtlXJV08.png",Event 9
 https://kasta-tv-ua.short.gy/event9
 
+#EXTINF:-1 group-title="Спорт" tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/4jcpre1657031942.png",Art Sport 1
+https://kasta-sports-tv.github.io/iptv/nl-art-1/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/fwbqic1657031982.png",Art Sport 2
+https://kasta-sports-tv.github.io/iptv/nl-art-2/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/n5n1sd1657031998.png",Art Sport 3
+https://kasta-sports-tv.github.io/iptv/nl-art-3/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-id="" tvg-logo="https://www.freeshot.live/upload/source/ART-Sport-4-logo.png",Art Sport 4
+https://kasta-sports-tv.github.io/iptv/nl-art-4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-id="" tvg-logo="https://www.freeshot.live/upload/source/ART-Sport-5-logo.png",Art Sport 5
+https://kasta-sports-tv.github.io/iptv/nl-art-5/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-id="" tvg-logo="https://www.freeshot.live/upload/source/ART-Sport-6-logo.png",Art Sport 6
+https://kasta-sports-tv.github.io/iptv/nl-art-6/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-id="2917" tvg-logo="http://epg.one/img2/2917.png",DAZN 3 PT
 https://kasta-sports-tv-github-io.short.gy/iptv/nl-dazn-3pt/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-id="2918" tvg-logo="http://epg.one/img2/2918.png",DAZN 4 PT
