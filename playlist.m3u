@@ -37,6 +37,10 @@ https://kasta-sports-tv-github-io.short.gy/iptv/nl-dazn-3pt/tracks-v1a1/mono.m3u
 https://kasta-sports-tv-github-io.short.gy/iptv/nl-dazn-4pt/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-id="2919" tvg-logo="http://epg.one/img2/2919.png",DAZN 5 PT
 https://kasta-sports-tv-github-io.short.gy/iptv/nl-dazn-5pt/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-id="2691" tvg-logo="http://1lot.tv/ch/7111.png",ONE 1
+https://kasta-sports-tv.github.io/iptv/nl-one-1/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-id="2704" tvg-logo="http://1lot.tv/ch/10481.png",ONE 2
+https://kasta-sports-tv.github.io/iptv/nl-one-2/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-id="2370" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/62175f03-252b-498f-949f-4fad869d4626.png",Setanta Sports UA
 https://kasta-sports-tv.github.io/iptv/nl-setua/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-id="6860" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/2dd33c5f-e82b-41aa-9e84-e3feda26ec1b.png",Setanta Sports+ UA
