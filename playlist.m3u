@@ -31,6 +31,8 @@ https://kasta-sports-tv.github.io/iptv/nl-art-4/tracks-v1a1/mono.m3u8
 https://kasta-sports-tv.github.io/iptv/nl-art-5/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-id="" tvg-logo="https://www.freeshot.live/upload/source/ART-Sport-6-logo.png",Art Sport 6
 https://kasta-sports-tv.github.io/iptv/nl-art-6/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/64/CazéTV_logo.svg/1280px-CazéTV_logo.svg.png",Caze TV
+https://kasta-sports-tv.github.io/iptv/nl-cazetv/index.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-id="2917" tvg-logo="http://epg.one/img2/2917.png",DAZN 3 PT
 https://kasta-sports-tv-github-io.short.gy/iptv/nl-dazn-3pt/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-id="2918" tvg-logo="http://epg.one/img2/2918.png",DAZN 4 PT
